@@ -20,3 +20,8 @@ build_script:
   - cd pty.js/pty.js-prebuilt
   - dir
   - npm install
+  
+deploy: off
+artifacts:
+  - path: build\Release\\pty.node
+    name: pty.node
