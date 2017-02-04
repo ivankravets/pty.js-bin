@@ -18,10 +18,7 @@ install:
 build_script:
   - dir
   - cd pty.js/pty.js-prebuilt
-  - dir
-  - npm --version
-  - where npm
-  - npm install
+  - C:\AtomSrc\resources\app\apm\bin\npm install
   - dir build\Release
   
 deploy: off
