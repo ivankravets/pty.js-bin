@@ -1,0 +1,19 @@
+image: Visual Studio 2015
+
+version: "{build}"
+
+skip_tags: true
+clone_depth: 10
+
+platform:
+  - x86
+
+install:
+  - SET PATH=C:\Program Files\Atom\resources\cli;%PATH%
+  - curl -L https://github.com/atom/atom/releases/download/v1.14.0-beta4/atom-x64-windows.zip
+  - 7z e atom-x64-windows.zip
+
+build_script:
+  - cd Atom\ Beta\ x64
+  - script\build.cmd --code-sign --create-windows-installer --compress-artifacts
+  - dir
