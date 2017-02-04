@@ -18,6 +18,8 @@ install:
 build_script:
   - dir
   - cd pty.js/pty.js-prebuilt
+  - node --version
+  - apm --version
   - npm --version
   - where npm
   - npm install
@@ -27,3 +29,7 @@ deploy: off
 artifacts:
   - path: pty.js\pty.js-prebuilt\build\Release\pty.node
     name: pty.node
+  - path: pty.js\pty.js-prebuilt\build\Release\winpty-agent.exe
+    name: winpty-agent.exe
+  - path: pty.js\pty.js-prebuilt\build\Release\winpty.dll
+    name: winpty.dll    
