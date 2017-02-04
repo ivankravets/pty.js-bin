@@ -14,5 +14,6 @@ install:
   - 7z e -y atom-x64-windows.zip
 
 build_script:
+  - dir
   - cd Atom\ Beta\ x64
   - dir
