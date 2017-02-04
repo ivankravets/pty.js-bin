@@ -17,6 +17,6 @@ install:
 
 build_script:
   - dir
-  - cd pty.js
+  - cd pty.js/pty.js-prebuilt
   - dir
   - npm install
