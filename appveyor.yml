@@ -23,5 +23,5 @@ build_script:
   
 deploy: off
 artifacts:
-  - path: build\Release\\pty.node
+  - path: build\Release\pty.node
     name: pty.node
