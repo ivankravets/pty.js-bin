@@ -11,7 +11,7 @@ platform:
 install:
   - SET PATH=C:\Program Files\Atom\resources\cli;%PATH%
   - curl -L -o atom-x64-windows.zip https://github.com/atom/atom/releases/download/v1.14.0-beta4/atom-x64-windows.zip
-  - 7z e -a atom-x64-windows.zip
+  - 7z e -y atom-x64-windows.zip
 
 build_script:
   - cd Atom\ Beta\ x64
