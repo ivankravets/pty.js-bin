@@ -19,6 +19,8 @@ build_script:
   - dir
   - cd pty.js/pty.js-prebuilt
   - dir
+  - npm --version
+  - where npm
   - npm install
   - dir build\Release
   
