@@ -13,13 +13,13 @@ install:
   - curl -L -o pty.js.zip https://github.com/platformio/pty.js/archive/prebuilt.zip
   - 7z x -y atom-x64-windows.zip -oC:\AtomSrc
   - 7z x -y pty.js.zip -opty.js
-  - SET PATH=C:\AtomSrc\Atom\ Beta\ x64\resources\app\apm\bin;%PATH%  
+  - SET PATH=C:\AtomSrc\Atom Beta x64\resources\app\apm\bin;%PATH%  
 
 build_script:
   - dir
   - cd pty.js/pty.js-prebuilt
   - npm --version
-  - C:\AtomSrc\Atom\ Beta\ x64\resources\app\apm\bin\npm install
+  - C:\AtomSrc\Atom Beta x64\resources\app\apm\bin\npm install
   - dir build\Release
   
 deploy: off
