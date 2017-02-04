@@ -15,5 +15,4 @@ install:
 
 build_script:
   - cd Atom\ Beta\ x64
-  - script\build.cmd --code-sign --create-windows-installer --compress-artifacts
   - dir
