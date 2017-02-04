@@ -20,7 +20,7 @@ build_script:
   - cd pty.js/pty.js-prebuilt
   - npm --version
   - where npm
-  - C:\AtomSrc\Atom Beta x64\resources\app\apm\bin\npm install
+  - npm install
   - dir build\Release
   
 deploy: off
