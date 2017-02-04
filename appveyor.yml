@@ -18,4 +18,4 @@ install:
 build_script:
   - dir
   - cd pty.js
-  - AtomSrc/resources/app/apm/bin/npm install
+  - ../AtomSrc/resources/app/apm/bin/npm install
