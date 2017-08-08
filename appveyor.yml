@@ -14,6 +14,8 @@ install:
   - 7z x -y atom-windows.zip -oC:\AtomSrc
   - 7z x -y pty.js.zip -opty.js
   - SET PATH=C:\AtomSrc\Atom x64\resources\app\apm\bin;%PATH%  
+  - echo %PATH%
+  - dir C:\Program Files (x86)\MSBuild\
 
 build_script:
   - dir
