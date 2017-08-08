@@ -6,7 +6,7 @@ skip_tags: true
 clone_depth: 10
 
 platform:
-  - x86
+  - x64
 
 install:
   - curl -L -o atom-windows.zip https://github.com/atom/atom/releases/download/v1.19.0/atom-x64-windows.zip
