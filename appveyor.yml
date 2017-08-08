@@ -9,7 +9,7 @@ platform:
   - x86
 
 install:
-  - curl -L -o atom-x64-windows.zip https://github.com/atom/atom/releases/download/v1.19.0/atom-windows.zip
+  - curl -L -o atom-windows.zip https://github.com/atom/atom/releases/download/v1.19.0/atom-windows.zip
   - curl -L -o pty.js.zip https://github.com/platformio/pty.js/archive/prebuilt.zip
   - 7z x -y atom-windows.zip -oC:\AtomSrc
   - 7z x -y pty.js.zip -opty.js
